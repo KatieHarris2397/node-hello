@@ -1,0 +1,30 @@
+projectname: node-hello
+projectpath: ""
+projecttype: ""
+buildsdir: ""
+buildtool: ""
+buildfile: ""
+prebuildcmd: ""
+configcmd: ""
+buildcmd: ""
+artifactlist: ""
+outputpath: ./artifact
+repobranch: ""
+appicon: ""
+docker:
+  dockerfile: ""
+  registry: katieharris
+  version: ""
+push:
+  url: ""
+container_ports:
+- container: 3000
+  service: 80
+  name: http
+application_dependencies:
+- mongo-4
+application_envs:
+- key: ENV_KEY1
+  value: ENV_VALUE1
+- key: ENV_KEY2
+  value: ENV_VALUE2
